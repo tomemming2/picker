@@ -27,7 +27,7 @@ function createTags(input) {
 }
 
 function randomSelect(){
-    const highlightTimes = 10;
+    const highlightTimes = 40;
     const interval = setInterval(() => {
         const randomTag = pickRandomTag()
         hightlightTag(randomTag)
